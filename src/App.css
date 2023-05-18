@@ -59,8 +59,8 @@ html {
 }
 
 .about {
-  padding: 1rem 4rem 0 4rem;
-  height: 80vh;
+  margin-bottom: 7rem;
+  padding: 7rem 2.5% 20rem 2.5%;
   background: linear-gradient(to right bottom, rgba(57, 19, 36, 0.9), rgba(26, 4, 27, 0.9)), url(./img/bg.jpg);
   background-size: cover;
   background-position: center;
@@ -74,12 +74,12 @@ html {
 }
 
 .img-box {
-  flex: 0 0 40%;
+  margin-right: 5rem;
   text-align: center;
 }
 
 .about__image {
-  width: 35rem;
+  width: 30rem;
   border-radius: 50%;
 }
 
@@ -89,12 +89,15 @@ html {
 }
 
 .about__header span {
-  font-size: 7rem;
+  font-size: 5rem;
 }
 
 .about__paragraph {
   font-size: 2rem;
   margin-bottom: 3rem;
+  line-height: 1.7;
+  word-spacing: .75rem;
+  letter-spacing: .1rem;
 }
 
 .about__paragraph span {
@@ -119,10 +122,6 @@ html {
   text-decoration: underline;
 }
 
-.link-box {
-  text-align: center;
-}
-
 .about__link {
   font-size: 4rem;
   color: rgba(0, 0, 0, 0.9);
@@ -130,4 +129,20 @@ html {
   text-decoration: none;
   padding: 1rem 2rem;
   border-radius: 2rem;
+}
+
+.project h2 {
+  text-align: center;
+}
+
+.project div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project__link {
+  display: block;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+  flex: 0 0 33%;
 }
