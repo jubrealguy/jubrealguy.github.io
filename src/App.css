@@ -59,14 +59,14 @@ html {
 }
 
 .about {
-  margin-bottom: 7rem;
+  margin-bottom: 8rem;
   padding: 7rem 2.5% 20rem 2.5%;
   background: linear-gradient(to right bottom, rgba(57, 19, 36, 0.9), rgba(26, 4, 27, 0.9)), url(./img/bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-repeat: no-repeat;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   color: white;
 
   display: flex;
@@ -97,7 +97,7 @@ html {
   margin-bottom: 3rem;
   line-height: 1.7;
   word-spacing: .75rem;
-  letter-spacing: .1rem;
+  letter-spacing: .08rem;
 }
 
 .about__paragraph span {
@@ -131,18 +131,48 @@ html {
   border-radius: 2rem;
 }
 
+.project {
+  padding: 0 10%;
+  margin-bottom: 8rem;
+}
+
 .project h2 {
+  font-size: 5rem;
   text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project__paragraph {
+  font-size: 2rem;
+  word-spacing: .6rem;
+  letter-spacing: .75px;
+  text-align: center;
+  line-height: 1.7;
+  margin-bottom: 5rem;
 }
 
 .project div {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2.5rem;
 }
 
 .project__link {
   display: block;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.9);
-  flex: 0 0 33%;
+  padding: 3rem;
+  background: gray;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.project__link h3 {
+  font-size: 3rem;
+  margin-bottom: 1.3rem;
+}
+
+.project__link p {
+  font-size: 1.8rem;
+  line-height: 1.7;
 }
