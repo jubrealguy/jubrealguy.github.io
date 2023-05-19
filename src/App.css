@@ -131,18 +131,18 @@ html {
   border-radius: 2rem;
 }
 
-.project {
+.project, .tool {
   padding: 0 10%;
   margin-bottom: 8rem;
 }
 
-.project h2 {
+.project h2, .tool h2 {
   font-size: 5rem;
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.project__paragraph {
+.project__paragraph, .tool__paragraph {
   font-size: 2rem;
   word-spacing: .6rem;
   letter-spacing: .75px;
@@ -175,4 +175,13 @@ html {
 .project__link p {
   font-size: 1.8rem;
   line-height: 1.7;
+}
+
+.tool__img-box {
+  position: relative;
+}
+
+.tool__img {
+  display: inline-block;
+  
 }
