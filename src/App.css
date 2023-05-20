@@ -183,5 +183,73 @@ html {
 
 .tool__img {
   display: inline-block;
+  width: 10rem;
+}
+
+.left {
+  animation: left 20s infinite linear;
+}
+
+.right {
+  animation: right 20s infinite linear;
+}
+
+@keyframes left {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  15% {
+    transform: translate(20rem, 20rem);
+  }
+
+  30% {
+    transform: translate(40rem, 0);
+  }
+
+  45% {
+    transform: translate(60rem, 20rem);
+  }
+
+  60% {
+    transform: translate(40rem, 0);
+  }
+
+  80% {
+    transform: translate(20rem, 20rem);
+  }
   
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes right {
+  0% {
+    transform: translate(60rem, 20rem);
+  }
+
+  15% {
+    transform: translate(40rem, 0);
+  }
+
+  30% {
+    transform: translate(20rem, 20rem);
+  }
+
+  45% {
+    transform: translate(0, 0);
+  }
+
+  60% {
+    transform: translate(20rem, 20rem);
+  }
+
+  80% {
+    transform: translate(40rem, 0);
+  }
+  
+  100% {
+    transform: translate(60rem, 20rem);
+  }
 }
