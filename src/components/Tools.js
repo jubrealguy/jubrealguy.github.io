@@ -14,14 +14,14 @@ const Tools = () => {
             <h2>Tools I have worked with.</h2>
             <p className="tool__paragraph">Other programming languages and tools that I am very proficient with.</p>
             <div className='tool__img-box'>
-                <img src={html} alt="" className="tool__img left" />
-                <img src={css3} alt="" className="tool__img right" />
-                <img src={js} alt="" className="tool__img left" />
-                <img src={C} alt="" className="tool__img right" />
-                <img src={python} alt="" className="tool__img left" />
-                <img src={bootstrap} alt="" className="tool__img right" />
-                <img src={sass} alt="" className="tool__img left" />
-                <img src={react_img} alt="" className="tool__img right" />
+                <img src={html} alt="" className="tool__img fast" />
+                <img src={css3} alt="" className="tool__img medium" />
+                <img src={js} alt="" className="tool__img slow" />
+                <img src={C} alt="" className="tool__img fast" />
+                <img src={python} alt="" className="tool__img medium" />
+                <img src={bootstrap} alt="" className="tool__img slow" />
+                <img src={sass} alt="" className="tool__img fast" />
+                <img src={react_img} alt="" className="tool__img medium" />
             </div>
         </section>
     )

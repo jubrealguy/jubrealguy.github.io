@@ -179,6 +179,9 @@ html {
 
 .tool__img-box {
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .tool__img {
@@ -186,70 +189,28 @@ html {
   width: 10rem;
 }
 
-.left {
-  animation: left 20s infinite linear;
+.fast {
+  animation: down 10s infinite linear;
 }
 
-.right {
-  animation: right 20s infinite linear;
+.medium {
+  animation: down 15s infinite linear;
 }
 
-@keyframes left {
+.slow {
+  animation: down 20s infinite linear;
+}
+
+@keyframes down {
   0% {
-    transform: translate(0, 0);
+    transform: translate(0, 0) rotate(0);
   }
 
-  15% {
-    transform: translate(20rem, 20rem);
+  50% {
+    transform: translate(0, 20rem) rotate(180deg);
   }
 
-  30% {
-    transform: translate(40rem, 0);
-  }
-
-  45% {
-    transform: translate(60rem, 20rem);
-  }
-
-  60% {
-    transform: translate(40rem, 0);
-  }
-
-  80% {
-    transform: translate(20rem, 20rem);
-  }
-  
   100% {
-    transform: translate(0, 0);
-  }
-}
-
-@keyframes right {
-  0% {
-    transform: translate(60rem, 20rem);
-  }
-
-  15% {
-    transform: translate(40rem, 0);
-  }
-
-  30% {
-    transform: translate(20rem, 20rem);
-  }
-
-  45% {
-    transform: translate(0, 0);
-  }
-
-  60% {
-    transform: translate(20rem, 20rem);
-  }
-
-  80% {
-    transform: translate(40rem, 0);
-  }
-  
-  100% {
-    transform: translate(60rem, 20rem);
+    transform: translate(0, 0) rotate(360deg);
   }
 }
