@@ -190,15 +190,15 @@ html {
 }
 
 .fast {
-  animation: down 10s infinite linear;
+  animation: down 20s infinite linear;
 }
 
 .medium {
-  animation: down 15s infinite linear;
+  animation: down 35s infinite linear;
 }
 
 .slow {
-  animation: down 20s infinite linear;
+  animation: down 50s infinite linear;
 }
 
 @keyframes down {
