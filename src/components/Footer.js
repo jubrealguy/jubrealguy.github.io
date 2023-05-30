@@ -8,9 +8,16 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 const Footer = () => {
     return (
         <section className="footer">
-            <FontAwesomeIcon icon={faTwitter} />
-            <FontAwesomeIcon icon={faLinkedin} />
-            <FontAwesomeIcon icon={faGithub} />
+            <p>Find me on ...</p>
+            <a href='https://twitter.com/debayo_realest' className='faIcon'>
+                <FontAwesomeIcon icon={faTwitter}  />
+            </a>
+            <a href='https://twitter.com/debayo_realest' className='faIcon'>
+                <FontAwesomeIcon icon={faLinkedin}  />
+            </a>
+            <a href='https://twitter.com/debayo_realest' className='faIcon'>
+                <FontAwesomeIcon icon={faGithub}  />
+            </a>
         </section>
     )
 }
