@@ -30,7 +30,7 @@ const Projects = () => {
         
                 <a href="https://jubrealguy.github.io/BreelStruct/" className="project__link">
                     <h3>BreelStruct</h3>
-                    <p>I decided to test my hands on HTML and CSS, which I did amazingly well. This is a very neat and beautiful landing page for a construction firm and it is not fully developed</p>
+                    <p>I decided to test my hands on HTML and CSS, which I did amazingly well. This is a very neat and beautiful lnding page for a construction firm and it is not fully developed</p>
                 </a>
             </div>
         </section>
