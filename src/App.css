@@ -153,69 +153,108 @@ html {
 
 .project div {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 7rem;
-}
-
-.metabnb {
-  background: linear-gradient(to right bottom, rgba(57, 19, 36, .85), rgba(26, 4, 27, .85)), url(./img/metabnb.png);
-  background-position: center;
-  background-size: 95%;
-}
-
-.linktree {
-  background: linear-gradient(to right bottom, rgba(57, 19, 36, .75), rgba(26, 4, 27, .75)), url(./img/linktree.png);
-  background-position: center;
-  background-size: 95%;
-}
-
-.zuri {
-  background: linear-gradient(to right bottom, rgba(57, 19, 36, .75), rgba(26, 4, 27, .75)), url(./img/zuri.png);
-  background-position: center;
-  background-size: 95%;
-}
-
-.misols {
-  background: linear-gradient(to right bottom, rgba(57, 19, 36, .75), rgba(26, 4, 27, .75)), url(./img/misols.png);
-  background-position: center;
-  background-size: 95%;
-}
-
-.breel {
-  background: linear-gradient(to right bottom, rgba(57, 19, 36, .75), rgba(26, 4, 27, .75)), url(./img/breel.png);
-  background-position: center;
-  background-size: 95%;
-}
-
-.lagos {
-  background: linear-gradient(to right bottom, rgba(57, 19, 36, .75), rgba(26, 4, 27, .75)), url(./img/lagos.png);
-  background-position: center;
-  background-size: 95%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 8rem;
 }
 
 .project__link {
   display: block;
   text-decoration: none;
-  color: white;
-  padding: 10rem 5rem;
+  color: black;
+  padding: 3rem;
   text-align: center;
   border-radius: 1rem;
-}
 
-.project__link h3 {
-  font-size: 5rem;
-  margin-bottom: 3rem;
-}
-
-.project__link p {
-  font-size: 2rem;
-  line-height: 1.7;
-
+  background-position: center;
+  border: none;
   transition: all .5s;
 }
 
-.project__link p:hover {
-  transform: scale(1.2);
+.project__link:hover {
+  transform: scale(1.1);
+}
+
+.linktree {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgb(255, 255, 255, .8)), url(./img/linktree.png);
+  background-size: 100%;
+  outline: 1rem solid rgba(128, 128, 128, 0.515);
+}
+
+.metabnb {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgb(255, 255, 255, .8)), url(./img/metabnb.png);
+  background-size: 100%;
+  outline: 1rem solid rgba(128, 0, 124, 0.501);
+}
+
+.zuri {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgb(255, 255, 255, .8)), url(./img/zuri.png);
+  background-position: center;
+  background-size: 100%;
+  outline: 1rem solid rgba(177, 12, 163, 0.327);
+}
+
+.misols {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgb(255, 255, 255, .8)), url(./img/misols.png);
+  background-position: center;
+  background-size: 95%;
+  outline: 1rem solid rgba(7, 61, 100, 0.508);
+}
+
+.lagos {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgb(255, 255, 255, .8)), url(./img/lagos.png);
+  background-position: center;
+  background-size: 130%;
+  outline: 1rem solid rgba(136, 177, 12, 0.238);
+}
+
+.breel {
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgb(255, 255, 255, .8)), url(./img/breel.png);
+  background-position: center;
+  background-size: 120%;
+  outline: 1rem solid rgba(7, 61, 100, 0.386);
+}
+
+.project__link h3 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.project__link p {
+  font-size: 1.9rem;
+  line-height: 1.7;
+  font-weight: 500;
+  transition: all .5s;
+}
+
+.project article {
+  margin-top: 5rem;
+}
+
+.project article h4 {
+  font-size: 3rem;
+  margin-bottom: 1.35rem;
+}
+
+.project article ul {
+  list-style: none;
+}
+
+.project article ul {
+  list-style: none;
+}
+
+.project article ul li a {
+  font-size: 2.2rem;
+  color: black;
+  line-height: 1.6;
+}
+
+.proj {
+  transition: all .5s;
+}
+
+.proj:hover {
+  transform: skewX(30deg);
 }
 
 .tool__img-box {

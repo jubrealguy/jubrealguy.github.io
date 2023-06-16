@@ -10,9 +10,9 @@ import python from '../img/python.jpg'
 
 const Tools = () => {
     return (
-        <section className="tool">
+        <section className="tool" id='tool'>
             <h2>Tools I have worked with.</h2>
-            <p className="tool__paragraph">Other programming languages and tools that I am very proficient with.</p>
+            <p className="tool__paragraph">Programming languages and tools that I am very proficient with.</p>
             <div className='tool__img-box'>
                 <img src={html} alt="" className="tool__img fast" />
                 <img src={css3} alt="" className="tool__img medium" />

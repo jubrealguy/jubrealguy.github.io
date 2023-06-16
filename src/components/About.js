@@ -2,7 +2,7 @@ import profile_img from '../img/Jubreel_Adebayo.jpeg'
 
 const About = () => {
     return (
-        <section className='about'>
+        <section className='about' id='about'>
            <div className='img-box'>
                 <img src={profile_img} alt='' className='about__image' />
            </div>
