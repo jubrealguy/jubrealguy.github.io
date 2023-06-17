@@ -237,11 +237,16 @@ html {
   color: black;
   padding: 3rem;
   text-align: center;
-  border-radius: 1rem;
+  border-radius: 3rem;
 
   background-position: center;
-  border: none;
   transition: all .5s;
+}
+
+@media screen and (max-width: 600px) {
+  .project__link {
+    
+  }
 }
 
 .project__link:hover {
@@ -251,41 +256,41 @@ html {
 .linktree {
   background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgb(255, 255, 255, .8)), url(./img/linktree.png);
   background-size: 100%;
-  outline: 1rem solid rgba(128, 128, 128, 0.515);
+  border: 1rem solid rgba(128, 128, 128, 0.515);
 }
 
 .metabnb {
   background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgb(255, 255, 255, .8)), url(./img/metabnb.png);
   background-size: 100%;
-  outline: 1rem solid rgba(128, 0, 124, 0.501);
+  border: 1rem solid rgba(128, 0, 124, 0.501);
 }
 
 .zuri {
   background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgb(255, 255, 255, .8)), url(./img/zuri.png);
   background-position: center;
   background-size: 100%;
-  outline: 1rem solid rgba(177, 12, 163, 0.327);
+  border: 1rem solid rgba(177, 12, 163, 0.327);
 }
 
 .misols {
   background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgb(255, 255, 255, .8)), url(./img/misols.png);
   background-position: center;
   background-size: 95%;
-  outline: 1rem solid rgba(7, 61, 100, 0.508);
+  border: 1rem solid rgba(7, 61, 100, 0.508);
 }
 
 .lagos {
   background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgb(255, 255, 255, .8)), url(./img/lagos.png);
   background-position: center;
   background-size: 130%;
-  outline: 1rem solid rgba(136, 177, 12, 0.238);
+  border: 1rem solid rgba(136, 177, 12, 0.238);
 }
 
 .breel {
   background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgb(255, 255, 255, .8)), url(./img/breel.png);
   background-position: center;
   background-size: 120%;
-  outline: 1rem solid rgba(7, 61, 100, 0.386);
+  border: 1rem solid rgba(7, 61, 100, 0.386);
 }
 
 .project__link h3 {
