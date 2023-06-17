@@ -8,6 +8,18 @@ html {
   font-size: 62.5%;
 }
 
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
+}
+
 .App {
   color: rgba(0, 0, 0, 0.9);
 }
@@ -21,6 +33,12 @@ html {
 
 .logo-box {
   flex: 0 0 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .logo-box {
+    flex: 0 0 30%;
+  }
 }
 
 .header__logo {
@@ -47,6 +65,12 @@ html {
   margin-right: 4rem;
 }
 
+@media screen and (max-width: 600px) {
+  .header__nav-item:not(:last-child) {
+    margin-right: 2rem;
+  }
+}
+
 .header__nav-link {
   color: rgba(0, 0, 0, 0.9);
   font-size: 2rem;
@@ -56,6 +80,12 @@ html {
 
 .main {
   padding: 5rem 5%;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    padding: 2rem;
+  }
 }
 
 .about {
@@ -73,6 +103,13 @@ html {
   align-items: center;
 }
 
+@media screen and (max-width: 600px) {
+  .about {
+    flex-direction: column;
+    padding: 2rem;
+  }
+}
+
 .img-box {
   margin-right: 5rem;
   text-align: center;
@@ -83,25 +120,38 @@ html {
   border-radius: 50%;
 }
 
+@media screen and (max-width: 900px) {
+  .img-box {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .about__image {
+    width: 20rem;
+  }
+
+  .about__content {
+    text-align: justify;
+  }
+}
+
 .about__header {
   font-size: 1.6rem;
   margin-bottom: 2rem;
 }
 
 .about__header span {
-  font-size: 5rem;
+  font-size: 3.3rem;
 }
 
 .about__paragraph {
   font-size: 2rem;
   margin-bottom: 3rem;
   line-height: 1.7;
-  word-spacing: .75rem;
-  letter-spacing: .08rem;
 }
 
 .about__paragraph span {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 700;
 }
 
@@ -136,6 +186,13 @@ html {
   margin-bottom: 8rem;
 }
 
+@media screen and (max-width: 900px) {
+  .tool {
+    padding: 3rem;
+  }
+}
+
+
 .project h2, .tool h2 {
   font-size: 5rem;
   text-align: center;
@@ -155,6 +212,18 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 8rem;
+}
+
+@media screen and (max-width: 900px) {
+  .project div {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project div {
+    grid-template-columns: 1fr;
+  }
 }
 
 .project__link {
@@ -268,6 +337,13 @@ html {
   display: inline-block;
   width: 10rem;
 }
+
+@media screen and (max-width: 900px) {
+  .tool__img {
+    width: 3rem;
+  }
+}
+
 
 .fast {
   animation: down 30s infinite linear;
