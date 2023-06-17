@@ -36,6 +36,9 @@ html {
 }
 
 @media screen and (max-width: 600px) {
+  .header {
+    padding: 0 1.5rem;
+  }
   .logo-box {
     flex: 0 0 30%;
   }
@@ -67,7 +70,7 @@ html {
 
 @media screen and (max-width: 600px) {
   .header__nav-item:not(:last-child) {
-    margin-right: 2rem;
+    margin-right: 1.5rem;
   }
 }
 
@@ -78,13 +81,20 @@ html {
   font-weight: 500;
 }
 
+@media screen and (max-width: 600px) {
+  .header__nav-link {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1.75rem;
+  }
+}
+
 .main {
   padding: 5rem 5%;
 }
 
 @media screen and (max-width: 600px) {
   .main {
-    padding: 2rem;
+    padding: 1.2rem;
   }
 }
 
@@ -105,8 +115,9 @@ html {
 
 @media screen and (max-width: 600px) {
   .about {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
     flex-direction: column;
-    padding: 2rem;
+    padding: 4rem 2rem;
   }
 }
 
@@ -120,7 +131,7 @@ html {
   border-radius: 50%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .img-box {
     margin-right: 0;
     text-align: center;
@@ -173,7 +184,7 @@ html {
 }
 
 .about__link {
-  font-size: 4rem;
+  font-size: 2.75rem;
   color: rgba(0, 0, 0, 0.9);
   background-color: rgb(255, 255, 255);
   text-decoration: none;
@@ -182,14 +193,8 @@ html {
 }
 
 .project, .tool {
-  padding: 0 10%;
+  padding: 0 7.5%;
   margin-bottom: 8rem;
-}
-
-@media screen and (max-width: 900px) {
-  .tool {
-    padding: 3rem;
-  }
 }
 
 
@@ -293,6 +298,7 @@ html {
   line-height: 1.7;
   font-weight: 500;
   transition: all .5s;
+  text-align: justify;
 }
 
 .project article {
@@ -374,8 +380,14 @@ html {
 .footer {
   margin-top: 12rem;
   text-align: center;
-  background: gray;
-  padding: 4rem 0;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 2.5rem 0;
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    padding: 1.5rem 0;
+  }
 }
 
 .footer p {
@@ -384,17 +396,29 @@ html {
   margin-bottom: 3rem;
 }
 
+@media screen and (max-width: 600px) {
+  .footer p {
+    font-size: 2rem;
+  }
+}
+
 .faIcon {
   display: inline-block;
   color: black;
   font-size: 4rem;
   margin-right: 2rem;
-  background-color: grey;
   padding: .5rem 1rem;
   border: none;
   border-radius: 1rem;
 
   transition: all .5s;
+}
+
+@media screen and (max-width: 600px) {
+  .faIcon {
+    font-size: 2.3rem;
+    margin-right: 1.5rem;
+  }
 }
 
 .faIcon:hover {
