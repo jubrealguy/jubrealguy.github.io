@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
@@ -21,14 +23,18 @@ html {
 }
 
 .App {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(0, 0, 0);
+  font-family: 'Open Sans', sans-serif;
 }
 
 .header {
   padding: 0 3rem;
-  background: rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to right bottom, rgb(128, 128, 128), grey);
   display: flex;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .logo-box {
@@ -83,17 +89,17 @@ html {
 
 @media screen and (max-width: 600px) {
   .header__nav-link {
-    font-size: 1.9rem;
+    font-size: 2.2rem;
   }
 }
 
 .main {
-  padding: 5rem 5%;
+  padding: 12rem 5%;
 }
 
 @media screen and (max-width: 600px) {
   .main {
-    padding: 1.2rem;
+    padding: 15rem1.2rem;
   }
 }
 
@@ -292,8 +298,8 @@ html {
 }
 
 .project__link p {
-  font-size: 1.9rem;
-  line-height: 1.7;
+  font-size: 2rem;
+  line-height: 1.5;
   font-weight: 500;
   transition: all .5s;
   text-align: justify;
@@ -381,6 +387,8 @@ html {
   text-align: center;
   background: rgba(0, 0, 0, 0.2);
   padding: 2.5rem 0;
+  background: linear-gradient(to right bottom, rgb(128, 128, 128), grey);
+
 }
 
 @media screen and (max-width: 900px) {
