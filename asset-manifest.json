@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.234b04ea.css",
-    "main.js": "/static/js/main.500a15db.js",
+    "main.css": "/static/css/main.0cc0eb6b.css",
+    "main.js": "/static/js/main.57618b2b.js",
     "static/media/breel.png": "/static/media/breel.d47e571765f4eab1140d.png",
     "static/media/lagos.png": "/static/media/lagos.0662d552dba75b67b792.png",
     "static/media/misols.png": "/static/media/misols.d18afc50d6b41270067e.png",
@@ -15,12 +15,13 @@
     "static/media/react.png": "/static/media/react.58219f955ce9aada2820.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.4e3a0d48f69391cc4dbc.png",
     "static/media/JS.png": "/static/media/JS.8e7a216b99354a4d010b.png",
+    "static/media/sql.png": "/static/media/sql.c345b30ecedb3dab8f7f.png",
     "index.html": "/index.html",
-    "main.234b04ea.css.map": "/static/css/main.234b04ea.css.map",
-    "main.500a15db.js.map": "/static/js/main.500a15db.js.map"
+    "main.0cc0eb6b.css.map": "/static/css/main.0cc0eb6b.css.map",
+    "main.57618b2b.js.map": "/static/js/main.57618b2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.234b04ea.css",
-    "static/js/main.500a15db.js"
+    "static/css/main.0cc0eb6b.css",
+    "static/js/main.57618b2b.js"
   ]
 }
