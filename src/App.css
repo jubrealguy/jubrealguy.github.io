@@ -352,6 +352,7 @@ html {
   .tool__img {
     width: 6rem;
     margin-right: -4rem;
+    animation: spin 10s infinite linear;
   }
 }
 
@@ -361,11 +362,11 @@ html {
 }
 
 .medium {
-  animation: down 52.5s infinite linear;
+  animation: down 60s infinite linear;
 }
 
 .slow {
-  animation: down 75s infinite linear;
+  animation: down 90s infinite linear;
 }
 
 @keyframes down {
