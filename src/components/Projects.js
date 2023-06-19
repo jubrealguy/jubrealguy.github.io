@@ -11,7 +11,7 @@ const Projects = () => {
 
                 <a href="https://jubrealguy.github.io/HNG-linktree/" className="project__link linktree" target="_blank" rel="noreferrer">
                     <h3>LinkTree</h3>
-                    <p>This is my a project with HNG. This project was built with REACT, it is a link tree that links to Zuri and HNG products for designs, coding and programming skills</p>
+                    <p>This is a project with HNG. This project was built with REACT, it is a link tree that links to Zuri and HNG products for designs, coding and programming skills</p>
                 </a>
 
                 <a href="https://jubrealguy.github.io/Misols-Interior/" className="project__link misols" target="_blank" rel="noreferrer">
