@@ -39,6 +39,7 @@ const Projects = () => {
                 <ul className='other'>
                     <li className="proj"><a href="https://jubrealguy.github.io/Tetris/" target="_blank" rel="noreferrer">Tetris Game</a></li>
                     <li className="proj"><a href="https://github.com/jubrealguy/Qwasar-software-dev/blob/main/Season_1/printf.c" target="_blank" rel="noreferrer">Custom made Printf function in C</a></li>
+                    <li className="proj"><a href="https://github.com/jubrealguy/FullstackBlog" target="_blank" rel="noreferrer">My Blog</a></li>
                 </ul>
             </article>
         </section>
