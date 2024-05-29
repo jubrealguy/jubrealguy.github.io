@@ -247,9 +247,7 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-  .project__link {
-    height: 30rem;
-  }
+  
 }
 
 .project__link h3 {
