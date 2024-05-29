@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.670c9c92.css",
+    "main.js": "/static/js/main.2f57b978.js",
+    "static/media/breel.png": "/static/media/breel.d47e571765f4eab1140d.png",
+    "static/media/lagos.png": "/static/media/lagos.0662d552dba75b67b792.png",
+    "static/media/misols.png": "/static/media/misols.d18afc50d6b41270067e.png",
+    "static/media/metabnb.png": "/static/media/metabnb.9ec4a76b5f9f76a51247.png",
+    "static/media/zuri.png": "/static/media/zuri.714400744e765d8d42d7.png",
+    "static/media/sass.png": "/static/media/sass.9537ac2f37eee70a0ca5.png",
+    "static/media/linktree.png": "/static/media/linktree.0304af5e173648d8454b.png",
+    "static/media/Jubreel_Adebayo.jpeg": "/static/media/Jubreel_Adebayo.8acc5db52bba86deb063.jpeg",
+    "static/media/bg.jpg": "/static/media/bg.6379c901b323723cd2cd.jpg",
+    "static/media/logo.png": "/static/media/logo.053fc7e4e1326aa1ce0c.png",
+    "static/media/react.png": "/static/media/react.58219f955ce9aada2820.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.4e3a0d48f69391cc4dbc.png",
+    "static/media/JS.png": "/static/media/JS.8e7a216b99354a4d010b.png",
+    "static/media/sql.png": "/static/media/sql.c345b30ecedb3dab8f7f.png",
+    "static/media/nodejs.png": "/static/media/nodejs.b0d80e861b4c470405d7.png",
+    "index.html": "/index.html",
+    "main.670c9c92.css.map": "/static/css/main.670c9c92.css.map",
+    "main.2f57b978.js.map": "/static/js/main.2f57b978.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.670c9c92.css",
+    "static/js/main.2f57b978.js"
+  ]
+}
