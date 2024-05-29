@@ -242,9 +242,14 @@ html {
   padding: 3rem;
   text-align: center;
   border-radius: 3rem;
-  height: 40rem;
   background-position: center;
   transition: all .5s;
+}
+
+@media screen and (max-width: 600px) {
+  .project__link {
+    height: 30rem;
+  }
 }
 
 .project__link h3 {
